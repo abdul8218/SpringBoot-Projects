@@ -1,0 +1,11 @@
+
+spring:
+  application:
+    name: CONFIGSERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://https://github.com/abdul8218/application
+          clone-on-start: true
